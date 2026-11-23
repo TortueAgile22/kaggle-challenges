@@ -1,0 +1,20 @@
+# Environnements virtuels et caches
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers système AppleDouble sur clé USB
+._*
+
+# Dossiers de données (on ignore le contenu, pas le dossier)
+*/data/*
+!*/data/.keep
+*.csv
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Fichiers système macOS
+.DS_Store
